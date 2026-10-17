@@ -20,9 +20,9 @@ name: Math Utility Project (CI included) | © 2026 by giáo.làng
 # ---------------------------------------------------------------------
 on:
   push:
-    branches: [ "dev" ]     # Chạy khi có push code lên nhánh dev
+    branches: [ "main" ]    # Chạy khi có push code lên nhánh main
   pull_request:
-    branches: [ "dev" ]     # Chạy khi có PR mở/update vào nhánh dev
+    branches: [ "main" ]    # Chạy khi có PR mở/update vào nhánh main
 
   # (Tuỳ chọn) Cho phép bấm nút "Run workflow" thủ công trên GitHub UI
   workflow_dispatch:
